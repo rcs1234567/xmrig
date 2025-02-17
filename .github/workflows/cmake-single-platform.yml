@@ -26,7 +26,8 @@ jobs:
       run: sudo apt-get install -y libhwloc-dev 
     - name: depend2
       run: sudo apt-get install libssl-dev
-
+    - name: depend3
+      run: sudo apt-get install libuv1-dev
     - name: dep3
       run: libuv1-dev libmicrohttpd-dev
     - name: Configure CMake
