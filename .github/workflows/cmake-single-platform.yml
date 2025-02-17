@@ -26,6 +26,9 @@ jobs:
       run: sudo apt-get install -y libhwloc-dev 
     - name: depend2
       run: sudo apt-get install libssl-dev
+
+    - name: dep3
+      run: libuv1-dev libmicrohttpd-dev
     - name: Configure CMake
       # Configure CMake in a 'build' subdirectory. `CMAKE_BUILD_TYPE` is only required if you are using a single-configuration generator such as make.
       # See https://cmake.org/cmake/help/latest/variable/CMAKE_BUILD_TYPE.html?highlight=cmake_build_type
